@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pill Detection Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #0e0f78, #a2168f);
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+            border-bottom: 4px solid #FFA500;
+            position: relative;
+        }
+        .home-button {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background-color: #007bff;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            border-radius: 0.25rem;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .home-button:hover {
+            background-color: #0056b3;
+        }
+        .jumbotron {
+            background: #fff;
+            padding: 2rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+        }
+        .jumbotron h2 {
+            margin-top: 0;
+            color: #007bff;
+        }
+        .jumbotron h3 {
+            margin-top: 0;
+            color: #333;
+        }
+        .jumbotron p {
+            margin-bottom: 1rem;
+            line-height: 1.6;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pill Detection Project</h1>
+        <a href="projects.html" class="home-button">Prev</a>
+    </header>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h2>Tools Used</h2>
+            <ul>
+                <li><b>Python:</b> Programming language used for implementing the Convolutional Neural Network (CNN).</li>
+                <li><b>Django:</b> Framework used for developing the web application and integrating the CNN model.</li>
+                <li><b>MySQL:</b> Database management system used for storing and managing pill images and identification results.</li>
+                <li><b>Convolutional Neural Network (CNN):</b> Used for classifying and recognizing various medications from images.</li>
+            </ul>
+        </div>
+
+        <div class="jumbotron">
+            <h2>My Works</h2>
+            <div class="jumbotron">
+                <h3>Image Analysis</h3>
+                <p>Users can upload pill images for analysis. The CNN model classifies and recognizes various medications based on the uploaded images.</p>
+            </div>
+
+            <div class="jumbotron">
+                <h3>Database Integration</h3>
+                <p>Utilized MySQL to manage and store data related to pill images and identification results. This ensures efficient data retrieval and storage.</p>
+            </div>
+
+            <div class="jumbotron">
+                <h3>Framework</h3>
+                <p>Employed Django for web application development, integrating the CNN model to provide accurate pharmaceutical identification and a seamless user experience.</p>
+            </div>
+        </div>
+    </div>
+
+   
+</body>
+</html>

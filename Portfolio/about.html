@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body, h1, h2, h3, p {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(to right, #0e0f78, #a2168f);; 
+            color: #333;
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            position: relative;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 0.5rem;
+        }
+
+        header nav {
+            margin-top: 0.5rem;
+        }
+
+        header nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 0.5rem;
+            padding: 0.5rem 1rem;
+            border-radius: 0.25rem;
+            transition: background-color 0.3s ease;
+        }
+
+        header nav a:hover {
+            background-color: #555;
+        }
+
+        header .home-button {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background-color: #d5dbe1;
+            color: #564979;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 0.25rem;
+            transition: background-color 0.3s ease;
+        }
+
+        header .home-button:hover {
+            background-color: #495f76;
+        }
+
+        main {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .about-container {
+            background: #e9e5e5;
+            padding: 2rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .about-container h2 {
+            margin-top: 1rem;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 0.5rem;
+        }
+
+        .internship {
+            margin-top: 1.5rem;
+        }
+
+        .internship h3 {
+            margin-bottom: 0.5rem;
+        }
+
+        .internship ul {
+            list-style-type: disc;
+            margin-left: 1.5rem;
+        }
+
+        .jumbotron-custom {
+            margin-top: 2rem;
+            background: #b0b3b6;
+            padding: 2rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .jumbotron-custom h2 {
+            margin-bottom: 1rem;
+            color: #007bff;
+        }
+
+        .d-flex-custom {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start; 
+            margin-top: 1rem;
+        }
+
+        .img-custom {
+            border-radius: 0.5rem;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-right: 1rem;
+        }
+
+        .btn-custom {
+            background-color: #d5dbe1;
+            color: #564979;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 0.25rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-custom:hover {
+            background-color: #495f76;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About Us</h1>
+        
+        <a href="index.html" class="home-button">Home</a>
+    </header>
+    <main>
+        <section class="about-container">
+            <h2>Software Developer</h2>
+            <p>Recent Computer Science graduate with a solid foundation in programming languages like Python and Django, eager to launch my career as a software developer. Seeking an entry-level position to apply my problem-solving skills, learn from experienced professionals, and contribute to innovative development projects. Committed to expanding my technical expertise and making a positive impact within a dynamic team.</p>
+            
+            <h2>Internships</h2>
+            <div class="internship">
+                <h3>Internship on Python - Full Stack Development</h3>
+                <ul>
+                    <li>Attained expertise in Python programming.</li>
+                    <li>Comprehended full-stack development concepts.</li>
+                    <li>Mastered frontend and backend integration.</li>
+                    <li>Developed responsive web interfaces.</li>
+                    <li>Managed databases.</li>
+                    <li>Honed problem-solving abilities.</li>
+                    <li>Executed practical projects.</li>
+                    <li>Practiced coding best practices.</li>
+                    <li>Collaborated effectively.</li>
+                    <li>Gained industry insights.</li>
+                </ul>
+            </div>
+
+            <div class="internship">
+                <h3>Internship on Python Programming with Data Structures</h3>
+                <ul>
+                    <li>Participated in a comprehensive software development internship program conducted by Q Spiders.</li>
+                    <li>Focused on Python programming and data structures like arrays and linked lists.</li>
+                    <li>Honed algorithmic problem-solving skills.</li>
+                    <li>Grasped memory management with pointers.</li>
+                </ul>
+            </div>
+            
+            <div class="jumbotron-custom">  
+                <h2>Certification</h2>  
+                <p><strong>Internship Certificate</strong></p>  
+                <div class="d-flex-custom">  
+                    <img class="img-custom" src="Photos/intern.jpg" alt="Certification">   
+                    <a href="Photos/intern.jpg" class="btn-custom" target="_blank">View Certificate</a>  
+                </div>  
+            </div> 
+        </section>
+    </main>
+</body>
+</html>

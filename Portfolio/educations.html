@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background: linear-gradient(to right, #0e0f78, #a2168f);
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            width: 185vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .education-card {
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .education-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            color: #1f2937;
+        }
+        h2 {
+            color: #4b5563;
+        }
+        .top-right {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background-color: #007bff;
+            color: #ffffff;
+            padding: 0.5rem 1rem;
+            border-radius: 0.375rem;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .top-right:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="top-right">Home</a>
+    <div class="education-card bg-white shadow-lg rounded-lg p-6 mx-4 sm:mx-6 lg:mx-12 xl:mx-24">
+        <h1 class="text-2xl font-bold mb-4 text-center">Education</h1>
+        
+        <div class="mb-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div>
+                    <h2 class="text-xl font-bold"><b>Alva’s Institute of Engineering and Technology</b></h2>
+                </div>
+                <div class="col-span-2">
+                    <p class="text-black-600">Bachelor of Engineering in Computer Science (B.E)</p>
+                    <p class="text-black-500">Dec 2020 - Jun 2024</p>
+                    <p class="text-black-500">CGPA: 7.28</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="mb-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div>
+                    <h2 class="text-xl font-semibold"><b>Alva’s PU College</b></h2>
+                </div>
+                <div class="col-span-2">
+                    <p class="text-black-600">PUC (12th)</p>
+                    <p class="text-black-500">Jun 2018 - Mar 2020</p>
+                    <p class="text-black-500">Percentage: 85.0%</p>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div>
+                    <h2 class="text-xl font-semibold"><b>English High School</b></h2>
+                </div>
+                <div class="col-span-2">
+                    <p class="text-black-600">SSLC (10th)</p>
+                    <p class="text-black-500">Dec 2017 - Mar 2018</p>
+                    <p class="text-black-500">Percentage: 75.1%</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIKHIL Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        img, video {
+            max-width: 30%;
+            height: auto;
+        }
+        body {
+            background: linear-gradient(to right, #0e0f78, #a2168f);
+            font-family: 'Arial', sans-serif;
+        }
+        header {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        nav ul li a {
+            transition: color 0.3s, transform 0.3s;
+        }
+        nav ul li a:hover {
+            color: #FFA500;
+            transform: translateY(-2px);
+        }
+        .profile-photo {
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+        .main-content {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 2rem;
+            border-radius: 1rem;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+        .button-custom {
+            background: linear-gradient(to right, #007bff, #00d084);
+            border: none;
+            transition: background 0.3s, transform 0.3s;
+        }
+        .button-custom:hover {
+            background: linear-gradient(to right, #0056b3, #02c39a);
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+    <header class="flex justify-between items-center p-6 bg-gray-800 text-white rounded-b-xl">
+        <div><img src="Photos/logos.jpeg"></div>
+        <nav>
+            <ul class="flex space-x-6">
+                <li><a href="index.html" class="hover:text-orange-400"><b>Home</b></a></li>
+                <li><a href="contact.html" class="hover:text-orange-400"><b>ContactUs</b></a></li>
+                <li><a href="skills.html" class="hover:text-orange-400"><b>Skills</b></a></li>
+                <li><a href="educations.html" class="hover:text-orange-400"><b>Education</b></a></li>
+                <li><a href="about.html" class="hover:text-orange-400"><b>About</b></a></li>
+                <li><a href="certifications.html" class="hover:text-orange-400"><b>Certifications</b></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="flex flex-col items-center justify-center h-screen text-center space-y-6">
+        <div class="main-content flex flex-col items-center">
+            <img src="Photos/niki.jpg" alt="Profile Photo" class="w-40 h-40 rounded-full border-4 border-blue-500 mb-4 profile-photo">
+            <h1 class="text-5xl font-bold mb-2">HI, I’M NIKHIL LOBO</h1>
+            <h2 class="text-3xl mt-2 mb-4">I’M A FULL STACK WEB DEVELOPER</h2>
+            <p class="mt-4 max-w-md mx-auto text-lg"><b>Programming isn’t about what you know! it’s about what you can figure out.</b></p>
+            <a href="projects.html" class="mt-6 inline-block py-2 px-4 rounded button-custom text-white hover:text-black">VIEW MY PROJECTS</a>
+        </div>
+    </main>
+</body>
+</html>

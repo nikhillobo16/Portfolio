@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {  
+            background: linear-gradient(to right, #0e0f78, #a2168f);
+        } 
+        .top-right {
+            position: absolute;
+            top: 1rem; 
+            right: 1rem; 
+        }
+    </style>
+</head>
+<body class="bg-gray-200 flex flex-col items-center justify-center min-h-screen relative">  
+    <a href="index.html" class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 top-right">Home</a>  
+    <h1 class="text-4xl font-bold mb-8">My Projects</h1>
+    <div class="grid grid-cols-2 gap-4">
+        <div class="bg-red-500 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <h2 class="text-white text-2xl mb-4">Project 1</h2>
+            <p class="text-white">Reciepe Website</p>
+            <button class="mt-4 bg-white text-red-500 font-semibold py-2 px-4 rounded"><a href="project1.html">View</a></button>
+        </div>
+        <div class="bg-blue-500 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <h2 class="text-white text-2xl mb-4">Project 2</h2>
+            <p class="text-white">Pill Detection Using CNN</p>
+            <button class="mt-4 bg-white text-blue-500 font-semibold py-2 px-4 rounded"><a href="project2.html">View</a></button>
+        </div>
+        <div class="bg-green-500 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <h2 class="text-white text-2xl mb-4">Project 3</h2>
+            <p class="text-white">Vehicles Sales Dashboard </p>
+            <button class="mt-4 bg-white text-green-500 font-semibold py-2 px-4 rounded"><a href="project3.html"> View</a></button>
+        </div>
+        <div class="bg-yellow-500 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <h2 class="text-white text-2xl mb-4">Project 4</h2>
+            <p class="text-white">Pizza Sales visualization</p>
+            <button class="mt-4 bg-white text-yellow-500 font-semibold py-2 px-4 rounded"><a href="project4.html"> View</a></button>
+        </div>
+    </div>
+</body>
+</html>
